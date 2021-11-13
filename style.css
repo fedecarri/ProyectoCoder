@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   text-align-last: center;
-  font-size: rem;
+  font-size:  4rem;
   animation-name: example;
   animation-duration: 3s
 }

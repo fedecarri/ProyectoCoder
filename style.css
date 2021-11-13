@@ -12,19 +12,25 @@ header {
   background-image: linear-gradient(to right, #54e365, #cafb5d);
 }
 
+@keyframes example {
+  from {font-size: 0%;
+  }
+  to {font-size: 4rem;}
+}
+
 h1 {
   text-align-last: center;
   font-size: 4rem;
-  transition-duration: 500ms;
-}
-
-h1:hover {
-  color: blue;
+  animation-name: example;
+  animation-duration: 3s
+ 
 }
 
 h2 {
   text-align-last: center;
-  font-size: 3rem;
+  font-size: rem;
+  animation-name: example;
+  animation-duration: 3s
 }
 
 .navi__ul a {
@@ -122,6 +128,13 @@ td ul li {
   scale: 1.3;
 }
 
-.type {
-  transform: translate(-130px);
+.type{
+  transition: all;
+  transition-duration: 1000ms;
+  
 }
+
+.type:hover {
+  transform: scale(150%)
+  translate(-80px) 
+     }

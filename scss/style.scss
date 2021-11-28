@@ -106,13 +106,15 @@
     list-style: none;
   }
   
-  .cuadro {
-    display: flex;
-    justify-content: center;
-  }
+  
   
   .cuadro__relleno {
+    margin-top: 40px;
+    margin-bottom: 40px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #54e365, #cafb5d);
   }
   
   .imagenes {
@@ -125,7 +127,7 @@
   }
   
   .imagenes img {
-    width: 100%;
+    width: 50%;
     margin: auto;
     border-radius: 10px;
     transition: 100ms;
@@ -159,10 +161,4 @@
 
   .servicios{
     @include parra
-  }
-
-  .cuadro__relleno {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to right, #54e365, #cafb5d);
   }

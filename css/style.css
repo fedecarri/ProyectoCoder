@@ -106,13 +106,13 @@ td ul li {
   list-style: none;
 }
 
-.cuadro {
+.cuadro__relleno {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
   display: flex;
   justify-content: center;
-}
-
-.cuadro__relleno {
-  background-color: white;
+  background-image: linear-gradient(to right, #54e365, #cafb5d);
 }
 
 .imagenes {
@@ -125,7 +125,7 @@ td ul li {
 }
 
 .imagenes img {
-  width: 100%;
+  width: 50%;
   margin: auto;
   border-radius: 10px;
   transition: 100ms;
@@ -158,12 +158,6 @@ td ul li {
   margin-top: 30px;
   margin-bottom: 50px;
   text-align: center;
-}
-
-.cuadro__relleno {
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(to right, #54e365, #cafb5d);
 }
 
 /*# sourceMappingURL=style.css.map */

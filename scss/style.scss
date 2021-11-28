@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     background-image: linear-gradient(to right, #54e365, #cafb5d);
     font-family: "Roboto", sans-serif;
@@ -144,4 +144,25 @@
     transform: scale(150%) translate(-80px);
   }
   
-  
+  @mixin parra {
+    
+    text-transform: uppercase;
+    line-height: 3,5%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center
+         
+      }
+  .quienes-somos {
+    @include parra
+  }
+
+  .servicios{
+    @include parra
+  }
+
+  .cuadro__relleno {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #54e365, #cafb5d);
+  }

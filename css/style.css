@@ -144,4 +144,26 @@ td ul li {
   transform: scale(150%) translate(-80px);
 }
 
+.quienes-somos {
+  text-transform: uppercase;
+  line-height: 3, 5%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.servicios {
+  text-transform: uppercase;
+  line-height: 3, 5%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cuadro__relleno {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #54e365, #cafb5d);
+}
+
 /*# sourceMappingURL=style.css.map */

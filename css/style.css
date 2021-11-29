@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   text-align-last: center;
-  font-size: 3rem;
+  font-size: 2rem;
   animation-name: example;
   animation-duration: 3s;
 }
@@ -113,6 +113,7 @@ td ul li {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to right, #54e365, #cafb5d);
+  border: solid;
 }
 
 .imagenes {
@@ -158,6 +159,19 @@ td ul li {
   margin-top: 30px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.cont-quienes {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.grupo {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

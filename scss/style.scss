@@ -12,6 +12,7 @@
   
   header {
     background-image: linear-gradient(to right, #5462e3, #5dfbc6);
+    height: 80px;
   }
   
   @keyframes example {
@@ -38,6 +39,9 @@
   
   .navi__ul a {
     text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+
   }
   
   .navi__ul {
@@ -47,10 +51,18 @@
     display: flex;
     justify-content: end
     
-  
     
   }
+
+  .navi__menu:hover {
+    background-color: blanchedalmond;
+  }
   
+  .navi__menu {
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+
   .section {
     display: flex;
     margin: 40px;
@@ -191,4 +203,5 @@ font-size:3rem;
 text-align: center; 
 
 }
+
 

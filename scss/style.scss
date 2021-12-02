@@ -7,12 +7,14 @@
 
   body {
     background-image: linear-gradient(to right, #5462e3, #5dfbc6);
-    font-family:'Montserrat', sans-serif
+    font-family:'Montserrat', sans-serif;
+    
   }
   
   header {
     background-image: linear-gradient(to right, #5462e3, #5dfbc6);
     height: 80px;
+  
   }
   
   @keyframes example {
@@ -28,6 +30,7 @@
     font-size: 4rem;
     animation-name: example;
     animation-duration: 3s;
+    margin-top: 20px;
   }
   
   h2 {
@@ -41,7 +44,8 @@
     text-decoration: none;
     margin: 0 10px;
     font-size: 18px;
-
+    
+    
   }
   
   .navi__ul {
@@ -50,6 +54,7 @@
     list-style: none;
     display: flex;
     justify-content: end
+    margi        
     
     
   }
@@ -111,9 +116,8 @@
     border: solid;
     padding: 10px;
     width: 100%;
-    height: 60px;
-    bottom: 0;
-    position: fixed;
+    height: 50px;    
+    position: fixed
   }
   
   .contacto {

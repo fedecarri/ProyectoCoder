@@ -48,7 +48,7 @@ h2 {
   font-size: 1rem;
   list-style: none;
   display: flex;
-  justify-content: end margi;
+  justify-content: end;
 }
 
 .navi__menu:hover {
@@ -172,14 +172,6 @@ td ul li {
   word-spacing: 1rem;
 }
 
-.servicios {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  text-align: justify;
-}
-
 .cont-quienes {
   display: flex;
   justify-content: center;
@@ -196,6 +188,22 @@ td ul li {
 .cv {
   font-size: 3rem;
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.turnos__text {
+  line-height: 1.88;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
